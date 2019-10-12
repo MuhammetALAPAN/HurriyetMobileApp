@@ -39,7 +39,7 @@ export default class NewsSingleScreen extends Component {
     
     const { data } = await axios.get("https://api.hurriyet.com.tr/v1/newsphotogalleries?$top=20", {
       params : {"$top": "20"},
-      headers : {"apikey": "b0155420c36c40af8afc7d186e5727cb"}})
+      headers : {"apikey": "..."}})
       const news = data[this.props.index]
 
       var tempPic = [];
