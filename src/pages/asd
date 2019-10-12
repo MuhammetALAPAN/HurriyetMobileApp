@@ -1,0 +1,17 @@
+<Container >
+        <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#fc1703" translucent = {false}/>
+        <Header transparent>
+          <SafeAreaView style = {styles.headerSafeAreaView}>
+            <Icon name='menu' />
+            <Image 
+              resizeMode = "contain"
+              style = {styles.headerImage}
+              source = {{ uri : "https://2deroj25v8qu2o5mtq1fox5r-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/Hurriyet-Logo.jpg"}}
+            />
+            <Icon style = {{marginRight: 10} } name='more' />
+          </SafeAreaView>
+        </Header>
+
+        
+        <TabViewExample/>
+      </Container>
